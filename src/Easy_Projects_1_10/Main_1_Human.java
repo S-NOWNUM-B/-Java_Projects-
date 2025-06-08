@@ -81,7 +81,7 @@ public class Main_1_Human {
                 String newAge = scanner.nextLine().strip();
                 human.editAge(newAge);
             } else if (choice.equals("5") || choice.equals("выйти")) {
-                System.out.println("До свидания!");
+                System.out.println("\nВыключаюсь...");
                 break;
             } else {
                 System.out.println("ОШИБКА: Некорректная команда, попробуйте ещё раз");
